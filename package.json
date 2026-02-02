@@ -1,0 +1,20 @@
+{
+  "name": "space-cat-cafe-v4",
+  "version": "1.0.0",
+  "description": "太空貓咖啡館 V4 - Space Cat Cafe Website",
+  "scripts": {
+    "test": "node test-website.js",
+    "serve": "python3 -m http.server 8765"
+  },
+  "keywords": [
+    "cafe",
+    "cat",
+    "space",
+    "website"
+  ],
+  "author": "JoeyVIP",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜單 - 太空貓咖啡館</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 導航列 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/catcoffeelogo.png" alt="太空貓咖啡館 Logo">
+                <span>太空貓咖啡館</span>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="menu.html" class="active">菜單</a></li>
+                <li><a href="contact.html">聯絡資訊</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 頁面標題 -->
+    <section class="page-header">
+        <div class="stars"></div>
+        <div class="container">
+            <h1>美味菜單</h1>
+            <p>來自宇宙各地的精選飲品與美食</p>
+        </div>
+    </section>
+
+    <!-- 菜單內容 -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- 咖啡類 -->
+            <div class="menu-category">
+                <h2>☕ 精品咖啡</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">星雲美式咖啡</span>
+                            <span class="menu-item-price">NT$ 120</span>
+                        </div>
+                        <p class="menu-item-description">來自衣索比亞的單品咖啡豆，帶有花香與柑橘風味</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">銀河拿鐵</span>
+                            <span class="menu-item-price">NT$ 150</span>
+                        </div>
+                        <p class="menu-item-description">經典拿鐵，使用新鮮全脂牛奶，綿密細緻的奶泡</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">月球卡布奇諾</span>
+                            <span class="menu-item-price">NT$ 140</span>
+                        </div>
+                        <p class="menu-item-description">濃郁咖啡搭配厚實奶泡，灑上可可粉點綴</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">太空摩卡</span>
+                            <span class="menu-item-price">NT$ 160</span>
+                        </div>
+                        <p class="menu-item-description">巧克力與咖啡的完美結合，頂部加上鮮奶油</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">星際冰滴咖啡</span>
+                            <span class="menu-item-price">NT$ 180</span>
+                        </div>
+                        <p class="menu-item-description">24小時低溫萃取，口感滑順，風味層次豐富</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 特調飲品 -->
+            <div class="menu-category">
+                <h2>🌟 特調飲品</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">彩虹星雲奶昔</span>
+                            <span class="menu-item-price">NT$ 170</span>
+                        </div>
+                        <p class="menu-item-description">繽紛多彩的漸層奶昔，夢幻又美味</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">貓掌抹茶拿鐵</span>
+                            <span class="menu-item-price">NT$ 160</span>
+                        </div>
+                        <p class="menu-item-description">日本宇治抹茶，頂部有可愛的貓掌拉花</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">星空蝶豆花茶</span>
+                            <span class="menu-item-price">NT$ 140</span>
+                        </div>
+                        <p class="menu-item-description">天然蝶豆花茶，加入檸檬會變色的神奇飲品</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">宇宙草莓奶昔</span>
+                            <span class="menu-item-price">NT$ 180</span>
+                        </div>
+                        <p class="menu-item-description">新鮮草莓打成的濃郁奶昔，清爽不甜膩</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 甜點類 -->
+            <div class="menu-category">
+                <h2>🍰 星際甜點</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">太空貓掌蛋糕</span>
+                            <span class="menu-item-price">NT$ 150</span>
+                        </div>
+                        <p class="menu-item-description">貓掌造型的起司蛋糕，綿密香濃</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">銀河提拉米蘇</span>
+                            <span class="menu-item-price">NT$ 160</span>
+                        </div>
+                        <p class="menu-item-description">經典義式甜點，層次分明的美味</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">星雲舒芙蕾鬆餅</span>
+                            <span class="menu-item-price">NT$ 180</span>
+                        </div>
+                        <p class="menu-item-description">現做的厚鬆餅，搭配新鮮水果和楓糖</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">月球馬卡龍（3入）</span>
+                            <span class="menu-item-price">NT$ 120</span>
+                        </div>
+                        <p class="menu-item-description">法式馬卡龍，多種口味可選</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">彗星巧克力蛋糕</span>
+                            <span class="menu-item-price">NT$ 140</span>
+                        </div>
+                        <p class="menu-item-description">濃郁的比利時巧克力蛋糕，巧克力控必點</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 輕食類 -->
+            <div class="menu-category">
+                <h2>🥪 輕食餐點</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">太空貓三明治</span>
+                            <span class="menu-item-price">NT$ 180</span>
+                        </div>
+                        <p class="menu-item-description">火腿起司蔬菜三明治，附沙拉和薯條</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">星際帕尼尼</span>
+                            <span class="menu-item-price">NT$ 200</span>
+                        </div>
+                        <p class="menu-item-description">煙燻雞肉帕尼尼，搭配凱薩沙拉</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="menu-item-name">銀河沙拉碗</span>
+                            <span class="menu-item-price">NT$ 220</span>
+                        </div>
+                        <p class="menu-item-description">新鮮蔬菜、藜麥、烤雞肉，健康美味</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>太空貓咖啡館</h3>
+                    <p>在宇宙的一角，與貓咪們共度美好時光</p>
+                </div>
+                <div class="footer-section">
+                    <h3>營業時間</h3>
+                    <p>週一至週五：10:00 - 22:00</p>
+                    <p>週六至週日：09:00 - 23:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>聯絡我們</h3>
+                    <p>電話：(02) 1234-5678</p>
+                    <p>Email: info@spacecatcafe.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 太空貓咖啡館. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
